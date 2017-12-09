@@ -22,12 +22,12 @@ public class FacebookExample {
 	public static void main(String[] args) {
 		
 		// 遠端資料路徑
-		// [query sample]
+		// [query sample]  
 		// search?fields=name,id,likes,talking_about_count&limit=1000&q=靠北&type=page
 		String uri = 
 				"https://graph.facebook.com/v2.5"
-				+ "/search?q=%E9%9D%A0%E5%8C%97&type=page&limit=1000&fields=name,id,likes,talking_about_count"
-				+ "&access_token=EAACEdEose0cBAGqWzbcZBFy5BMAUZAorTonDJAjoF4hNxvURZC2Q3kooJmBgZA8jxbAYf3yIOACYerRAEbJT36knOdrvvgSY5dwZCkBpWlOqZAjNNcF8MlFg7mBQ3M7KHrltKfW2vBpuSA5JZC6LaCd0ntQoppS1dX7kTC0MU02hmYyUOSmZAEZBIUccEjlgQv0UZD";
+				+ "/search?q=%E4%B8%AD%E8%88%88&type=page&limit=1000&fields=name,id,likes,talking_about_count"
+				+ "&access_token=EAACEdEose0cBACuHqH4xL2uwy6v1UhAVV7TuMPwrfKCeFAUXv79sk8fZBiVUZCKDT8wXPSeuwhYZAeWQIxoxMmoQivpSIdnJKOIIO91b1k0VgfwcfZCwcK5PHP9qIYvxnXFA5SHfuXZAoZBchWTfSUKbzXtXNZBX9ZAa6sgRCBbKEbyj2k1zgfZA4Urz4N3AAkPgVclCz8ydfFwZDZD";
 
 
 
