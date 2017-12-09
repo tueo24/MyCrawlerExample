@@ -16,7 +16,7 @@ import com.google.common.collect.ImmutableSortedMap;
  * 重點：
  * 	1. regular expression 使用
  * 	2. 使用Guava套件，強化許多難以實現的功能
- * 
+ *
  * 
  * @author Abola Lee
  *
@@ -27,7 +27,7 @@ public class AppleRealtime {
 	
 	public static void main(String[] args) throws Exception{
 		
-		// 遠端資料路徑 test 1
+		// 遠端資料路徑 test 1 test2
 		String uri = "http://www.appledaily.com.tw/realtimenews/section/new/";
 
 //		取出即時新聞列表
