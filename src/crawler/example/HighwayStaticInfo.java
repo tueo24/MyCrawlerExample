@@ -11,7 +11,7 @@ import com.github.abola.crawler.CrawlerPack;
 public class HighwayStaticInfo {
 
 	public static void main(String[] args) {
-   
+
 		// 遠端資料路徑
 		String uri = "gz:http://tisvcloud.freeway.gov.tw/vd_value.xml.gz";
 
