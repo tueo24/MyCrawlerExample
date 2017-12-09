@@ -22,7 +22,7 @@ public class FacebookExample {
 	public static void main(String[] args) {
 		
 		// 遠端資料路徑
-		// [query sample]  
+		// [query sample]
 		// search?fields=name,id,likes,talking_about_count&limit=1000&q=靠北&type=page
 		String uri = 
 				"https://graph.facebook.com/v2.5"
