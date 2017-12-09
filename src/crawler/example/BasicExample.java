@@ -24,7 +24,7 @@ public class BasicExample {
 
 		System.out.println(
 				CrawlerPack.start()
-				
+
 				// 參數設定
 			    //.addCookie("key","value")	// 設定cookie
 				//.setRemoteEncoding("big5")// 設定遠端資料文件編碼
