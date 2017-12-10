@@ -20,7 +20,7 @@ import org.jsoup.select.Elements;
 public class FacebookExam {
 	
 	public static void main(String[] args) {
-		  
+
 		// 遠端資料路徑
 
 		String uri = 
@@ -41,7 +41,7 @@ public class FacebookExam {
 			String id = data.select("id").text();
 
 			// FIXIT
-			String reactions = "";
+			String reactions = data.select("reactions summary total_count").text();;
 
 
 			output += id + "," + reactions + "\n";
