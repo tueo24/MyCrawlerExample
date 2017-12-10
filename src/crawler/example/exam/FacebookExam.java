@@ -22,7 +22,7 @@ public class FacebookExam {
 	public static void main(String[] args) {
 
 		// 遠端資料路徑
-  
+
 		String uri = 
 				"https://graph.facebook.com/v2.6"
 				+ "/EBCbuzz/posts?fields=id,link,message,created_time,likes.limit(0).summary(total_count),reactions.limit(0).summary(total_count)"
